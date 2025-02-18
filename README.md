@@ -1,4 +1,4 @@
-一个小工具：远程在域外将域用户加入到某一个域内用户组
+一个小工具：远程在域外将域用户加入到某一个域内用户组，主要用于accountoperaor组特权利用
 
 A small tool: Remotely add a domain user to a specific domain group from outside the domain. Usage is as follows:
 AOexp.exe -domain vultest2.com -priuser AOtest -pripass 1qaz@WSX -user AOtest -addgroup "Exchange Windows Permissions" -dc dc2012.vultest2.com
